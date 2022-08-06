@@ -1,0 +1,45 @@
+
+body{
+  margin:0;
+}
+.saw{
+  color:#eeb945;
+}
+  a, li{
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size:80px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    padding:40px;
+    margin:0;
+  }
+  #grid ol{
+    line-height:2em;
+    font-size:25px;
+    border-right:1px solid gray;
+    width:100px;
+    margin:0;
+    padding:56px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+  #article{
+    padding:40px;
+  }
+  @media(max-width:800px){
+      #grid{
+        display: block;
+      }
+      #grid ol{
+        border-right:none;
+      }
+      h1 {
+        border-bottom:none;
+      }
+    }
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap'){

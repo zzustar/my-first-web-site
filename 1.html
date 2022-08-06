@@ -3,6 +3,13 @@
 <head>
   <title>로라하우스 HTML</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+<style>
+  #active{
+    color:#916f25;
+    font-weight:bold;
+  }
+  </style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0BWHWWVC49"></script>
   <script>
@@ -13,23 +20,23 @@
     gtag('config', 'G-0BWHWWVC49');
   </script>
 </head>
-
 <body>
-<h1><a href="index.html">로라네</h1>
-<ol>
-  <li><a href="1.html">로라</a></li>
-  <li><a href="2.html">진수띠</a></li>
-  <li><a href="3.html">쭈니</a></li>
-  <li><a href="4.html">꼼비</a></li>
-</ol>
-<ol>
-  -피아노<br>
-  <a href="https://opentutorials.org/course/3083"
-    target="_blank" title="로라 개발공부 장소">-개발</a><br>
-  -영어공부
-
-<h2>로라WORLD</h2>
-로로로로로로 로라세상에 오신 것을 환영합니다. 웰컴~~
-</ol>
+    <h1><a href="index.html" class="saw">로라하우스</a></h1>
+    <div id="grid">
+      <ol>
+        <li id="active"><a href="1.html" id="active">로라</a></li>
+        <li><a href="2.html">진수띠</a></li>
+        <li><a href="3.html">쭈니</a></li>
+        <li><a href="4.html">꼼비</a></li>
+      </ol>
+       <div id="article">
+           -피아노<br>
+           <a href="https://opentutorials.org/course/3083"
+             target="_blank" title="로라 개발공부 장소">-개발</a><br>
+           -영어공부
+        <h2>로라WORLD</h2>
+        로로로로로로 로라세상에 오신 것을 환영합니다. 웰컴~~
+       </div>
+     </div>
 </body>
 </html>
